@@ -1,0 +1,168 @@
+body {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    width: 960px;
+    background: url("../images/dust_scratches.png")
+}
+h1 {
+    padding-bottom: 20px;
+    font-size: 30px;
+    line-height: 49px;
+    font-family: Georgia, Times, "Times New Roman", serif;
+    color:  #4aaaa5;
+    border-bottom: solid 2px #dddddd;
+}
+
+#name {
+    float: left;
+    Background-color: #4aaaa5;
+    color: white;
+    width: 350px;
+    height: 50px;
+    font-size: 30px;
+    text-align: center;
+    font-family: Georgia, Times, "Times New Roman", serif;
+    margin: 0px;
+    padding-top: 20px;
+}
+#container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    width: 100%;
+    overflow: auto;
+    color: #ffffff;
+    background: #ffffff;
+    border-bottom: 3px solid #dddddd;
+}
+.nav-info {
+    position: relative;
+    left: 200px;
+    width: 960px;
+}
+
+nav {
+    float: right;
+    margin-top: 25px;
+}
+
+nav a {
+    display: inline-block;
+    padding-left: 15px;
+    margin-left: 15px;
+    line-height: 18px;
+    color: #999;
+    text-decoration: none;
+    border-left: 1px solid #efefef; 
+}
+
+#main-content {
+    position: relative;
+    left: 200px;
+    top: 200px;
+    float: left;
+    width: 900px;
+    padding: 30px;
+    margin: 0 0 40px;
+    background: #ffffff;
+    border: 1px solid #dddddd;
+
+}
+.headshot {
+    float: left;
+    width: 200px;
+    height: auto;
+    margin-top: 10px;
+    margin-right: 25px;
+}
+.footer {
+    position: fixed;
+    bottom: 0px;
+    left: 0;
+    background-color: #666;
+    border-top: 3px solid #4aaaa5;
+    width: 100%;
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+#contact {
+    position: relative;
+    left: 200px;
+    top: 200px;
+    float: left;
+    width: 900px;
+    padding: 30px;
+    margin: 0 0 40px;
+    background: #ffffff;
+    border: 1px solid #dddddd;
+    
+}
+
+form label {
+    margin-bottom: 20px;
+    line-height: 50px;
+    
+}
+
+form {
+    margin-bottom: 100px;
+}
+
+form input {
+    width: 100%;
+    font-size: 15px;
+}
+
+textarea {
+    width: 100%;
+    height: 200px;
+}
+
+button {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    padding: 10px;
+    font-size: 15px;
+    width: 100px;
+
+}
+
+#portfolio {
+    position: relative;
+    left: 200px;
+    top: 200px;
+    float: left;
+    width: 900px;
+    padding: 30px;
+    margin: 0 0 40px;
+    background: #ffffff;
+    border: 1px solid #dddddd;
+
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns:  auto auto;
+    padding: 10px;
+}
+
+.grid-item img{
+    height: auto;
+    width: 70%;
+    overflow: hidden;
+    
+}
+
+.grid-item h3{
+    background-color: #4aaaa5;
+    color: #ffffff;
+    font-family: Georgia, Times, "Times New Roman", serif;
+    position: relative;
+    top: -90px;
+    padding: 20px;
+    width:61%;
+}
